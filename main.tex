@@ -1,0 +1,258 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+        % \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Huge \scshape Karma Zoepa Yoezer} \\ \vspace{1pt}
+    \small +1-959-201-0423 $|$ \href{mailto:kzoepa@gmailcom}{\underline{kzoepa@gmail.com}} $|$ \href{https://kzoeps.me}{\underline{kzoeps.me}} $|$ 
+    \href{https://linkedin.com/in/kzoeps}{\underline{linkedin.com/in/kzoeps}} $|$
+    \href{https://github.com/kzoeps}{\underline{github.com/kzoeps}}
+\end{center}
+
+%
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Connecticut College}{New London, Connecticut}
+      {Bachelor of Arts, Computer Science}{}
+          \resumeItemListStart
+            \resumeItem{GPA: 3.968}
+            \resumeItem{Relevant Coursework: Data Structures, Discrete Math, Computer Organization, Data Science}
+            \resumeItem{Publication: \href{https://library.iated.org/view/TARIMO2020UNC}{   \emph{
+                \underline{Uncovering The Nature And Impact of Affective Feedback In  Teaching And Learning}
+                }
+            }
+        }
+            
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+\resumeProjectHeading
+      {{\textbf{\href{https://pyoor.co}{Pyoor}} $|$ \emph{Freelance Developer}}}{February 2022 - Present}
+      % {}{Stamford, Connecticut}
+      \resumeItemListStart
+        \resumeItem{Remote React Frontend Developer with \$4k+ earnings on upwork, maintained and developed features for a vendor booking platform.}
+        \resumeItem{Integrated Typescript and Redux Toolkit in the project and developed multiple simulation graphs for vendors using apex charts and React.}
+        \resumeItem{End to end delivery from requirement gathering with the client, validating requirements and implementing the features.}
+        \resumeItem{Technologies used: React, Redux, Git, HTML, CSS, Typescript, Javascript, Github Actions}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {{\textbf{\href{https://selise.ch}{SELISE}} $|$ \emph{Jr. Software Engineer}}}{November 2020 - February 2022}
+      % {}{Thimphu, Bhutan}
+      \resumeItemListStart
+        \resumeItem{Lead the go-live of a resource management platform project, worth CHF 500,000, for Switzerland’s largest retail company within a short duration of 3 months using Angular and REST API.}
+        \resumeItem{Maintained and developed features for a wholesale internet selling portal for one of Switzerland’s largest Telco company. Overhauled the 5 year code base from AngularJS to Angular in 6 months using Angular and GraphQL.}
+        \resumeItem{Reduced time taken for new product addition from 1.5 months to 2 weeks. A reduction in time by almost 70\%.}
+        \resumeItem{Refactored multiple GraphQL queries to use fragments and directives to reduce query sizes}
+        \resumeItem{Technologies used: Angular, Preact, Redux, NGRX, REST, GraphQL, Git, HTML, CSS, SCSS, Typescript, Javascript, BitBucket Piplelines}
+      \resumeItemListEnd
+
+      \resumeProjectHeading
+      {{\textbf{\href{https://conncoll.edu}{Connecticut College}} $|$ \emph{Research Assistant}}}{March 2020 - September 2020}
+      % {}{New London, Connecticut}
+      \resumeItemListStart
+        \resumeItem{Co-authored a research paper on the impact of integrating Sentimental Feedback into classroom activities by analyzing data from two Computer Science courses using sentiment analysis in Python.}
+        \resumeItem{Visualized feedback and sentiment graphs using Python Pandas, NumPy and Matplotlib.
+        % \\Publication: \href{https://library.iated.org/view/TARIMO2020UNC}{   \emph{
+        %         \underline{Uncovering The Nature And Impact of Affective Feedback In  Teaching And Learning}
+        %         }
+        %     }
+        }
+        \resumeItem{Technologies used: Python, IBM Watson, Ruby on Rails, Ruby}
+      \resumeItemListEnd
+      
+     
+    \resumeSubHeadingListEnd
+
+%-----------COMMUNITY AND LEADERSHIP-----------
+% \section{Community \& Leadership}
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%       {{\textbf{Project Title 1} $|$ \emph{Technologies used}}}{November 2021 – Present}
+%       {Club/Organization 1}{Melbourne, VIC}
+%       \resumeItemListStart
+%         \resumeItem{Job description/Award/Achievement 1}
+%         \resumeItem{Job description/Award/Achievement 2}
+%         \resumeItem{Job description/Award/Achievement 3}
+%       \resumeItemListEnd
+      
+%     \resumeSubheading
+%       {{\textbf{Project Title 1} $|$ \emph{Technologies used}}}{November 2021 – Present}
+%       {Club/Organization 2}{Melbourne, VIC}
+%       \resumeItemListStart
+%         \resumeItem{Job description/Award/Achievement 1}
+%         \resumeItem{Job description/Award/Achievement 2}
+%         \resumeItem{Job description/Award/Achievement 3}
+%       \resumeItemListEnd
+
+%     \resumeSubHeadingListEnd
+%-----------PROJECTS-----------
+\section{Projects}
+
+\resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{WKBeats} $|$ \emph{Lead Developer}}{August 2020 – October 2020}
+          \resumeItemListStart
+            \resumeItem{Created a portal to sell, purchase and listen to beats for a client using NestJS and ReactTS}
+            \resumeItem{Created a REST API to store beats and update transaction records using NestJS and PostgreSQL}
+        \resumeItem{Technologies used: React, TypeScript, JavaScript, Redux Toolkit, Github Actions, NestJS, PostgreSQL, ORM}
+          \resumeItemListEnd
+    % \resumeSubHeadingListStart
+    %   \resumeProjectHeading
+    %       {\textbf{\href{https://play.google.com/store/apps/details?id=com.laktaa}{\textbf{Laktaa}}} $|$ \emph{Lead Developer}}{July 2021 – October 2021}
+    %       \resumeItemListStart
+    %         \resumeItem{Participated in every part of development process from ideation, screen designs to feature implementaion and created a peer to peer delivery service mobile application using React Native(Typescript) and Firebase.}
+    %         \resumeItem{Set up redux toolkit architecture along with Firebase architecture and deployed on Google Playstore.}
+    %         \resumeItem{Technologies used: React, TypeScript, JavaScript, Redux Toolkit, Github Actions, Firebase}
+    %       \resumeItemListEnd
+
+      % \resumeProjectHeading
+      %     {\textbf{Kongtsey} $|$ \emph{Founder}}{May 2020 - July 2020}
+      %     \resumeItemListStart
+      %       \resumeItem{Built a test preparation web application, using ReactJS and Firestore, for the Bhutanese Civil Service exam with a growing user count of 580+.}
+      %       \resumeItem{Created a python script to scrape questions and answers from past papers.}
+      %       \resumeItem{Technologies used: React, JavaScript, Github Actions, Firebase}
+      %     \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    %-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, JavaScript, TypeScript, Ruby, HTML/CSS} \\
+     \textbf{Spoken Languages}{: English, Dzongkha, Hindi, Nepali} \\
+     \textbf{Frameworks}{: Angular, ReactJS, ReactTS, React Native, NextJS, Firebase, GraphQL, REST} \\
+     \textbf{Developer Tools}{: Git, Vim, Github Actions, Bitbucket Pipelines} \\
+    }}
+ \end{itemize}
+
+
+\section{Activities and Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{ASIA}{: Member of the ASIA club on campus to promote asian culture} \\
+     \textbf{Ultimate Frisbee}{: Member of the ultimate frisbee club} \\
+     \textbf{Robotics}{: Founding member of the robotics club} \\
+     \textbf{MOCA}{: Member of the men of color alliance} \\
+     \textbf{Kriya Frisbee}{: We used ultimate frisbee as a medium to bridge the gender gap in rural India} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+
+\end{document}
