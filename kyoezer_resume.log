@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.17)  9 SEP 2024 01:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.17)  9 SEP 2024 01:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/kzoeps/Projects/resume/main.tex
-(/home/kzoeps/Projects/resume/main.tex
+**/home/kzoeps/Projects/resume/kyoezer_resume.tex
+(/home/kzoeps/Projects/resume/kyoezer_resume.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -229,27 +229,27 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count274
 \l__pdf_internal_box=\box54
-) (./main.aux)
-\openout1 = `main.aux'.
+) (./kyoezer_resume.aux)
+\openout1 = `kyoezer_resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count275
@@ -264,7 +264,7 @@ LaTeX Font Info:    ... okay on input line 106.
 \makeMPintoPDFobject=\count280
 \everyMPtoPDFconversion=\toks25
 )
-Package hyperref Info: Link coloring OFF on input line 106.
+Package hyperref Info: Link coloring OFF on input line 107.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -274,32 +274,32 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count281
 )
-LaTeX Info: Redefining \ref on input line 106.
-LaTeX Info: Redefining \pageref on input line 106.
-LaTeX Info: Redefining \nameref on input line 106.
- (./main.out) (./main.out)
+LaTeX Info: Redefining \ref on input line 107.
+LaTeX Info: Redefining \pageref on input line 107.
+LaTeX Info: Redefining \nameref on input line 107.
+ (./kyoezer_resume.out) (./kyoezer_resume.out)
 \@outlinefile=\write3
-\openout3 = `main.out'.
+\openout3 = `kyoezer_resume.out'.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 112.
+(Font)              using `OT1/cmr/bx/n' instead on input line 113.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 113.
+(Font)              <7> on input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 113.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 113.
+(Font)              <5> on input line 114.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 114.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 125.
+(Font)              <10.95> on input line 126.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 125.
+(Font)              <8> on input line 126.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 125.
+(Font)              <6> on input line 126.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -308,23 +308,23 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./kyoezer_resume.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
+Package rerunfilecheck Info: File `kyoezer_resume.out' has not changed.
 (rerunfilecheck)             Checksum: 8178769A591DAE54593BE5DC5893BD68;390.
  ) 
 Here is how much of TeX's memory you used:
  10255 strings out of 480247
- 161667 string characters out of 5896151
- 498159 words of memory out of 5000000
+ 161837 string characters out of 5896151
+ 498209 words of memory out of 5000000
  28077 multiletter control sequences out of 15000+600000
  474851 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,11n,63p,326b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,336b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 101261 bytes).
+Output written on kyoezer_resume.pdf (1 page, 101261 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
