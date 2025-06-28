@@ -1,0 +1,185 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% dskf
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+        % \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Jimba Tshetrim} \\ \vspace{1pt}
+    \small +975 77855802 $|$ \href{mailto:jtshetrim@gmail.com}{\underline{jtshetrim@gmail.com}} $|$  
+    \href{https://linkedin.com/in/jimba-tshetrim}{\underline{linkedin.com}} $|$
+    \href{https://github.com/jimbatshetrim}{\underline{github.com}}
+    \end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small{
+    My name is Jimba Tshetrim and I’m from Bhutan. I have been working as a developer for 7+ years. I have a
+proven track record of developing complex applications and collaborating with cross-functional teams. Expertise
+in designing, developing, testing and implementing new features, and troubleshooting complex technical issues.
+}
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {Dewave}{Bhutan}
+      {Full Stack Developer | QA Engineer}{January 2023 - December 2024}
+      \resumeItemListStart
+        \resumeItem{Led the development of enterprise-level web applications using Next.js, with a strategic focus on SEO optimization to enhance client visibility and organic search rankings across diverse industries.}
+        \resumeItem{Planned and oversaw the implementation of server-side rendering and static site generation in Next.js to ensure fast-loading, SEO-optimized user experiences.}
+        \resumeItem{Managed the integration of Storyblok as a headless CMS, coordinating with development and content teams to streamline structured content delivery across multiple platforms.}
+        \resumeItem{Collaborated with UI/UX designers, developers, and stakeholders to define requirements and deliver responsive, interactive interfaces aligned with business objectives.}
+        \resumeItem{Directed comprehensive SEO audits and spearheaded the adoption of industry best practices, resulting in measurable improvements in search engine rankings and organic traffic.}
+        \resumeItem{Supervised the design and implementation of automated end-to-end testing using Playwright, ensuring consistent quality across critical user journeys and application functionalities.}
+        \resumeItem{Organized and executed performance and stress testing initiatives, identifying system bottlenecks and driving optimizations to meet performance benchmarks.}
+     \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+      \resumeSubheading
+      {Selise Digital Platforms}{Bhutan}
+      {Lead QA Engineer | Frontend Developer}{January 2021 - January 2023}
+      \resumeItemListStart
+        \resumeItem{Founded and led the QA engineering team from scratch, scaling it to 6–7 engineers and establishing a company-wide quality assurance process.}
+        \resumeItem{Designed and implemented end-to-end testing pipelines using Cypress for five of the company’s highest-priority projects, significantly reducing production issues and regressions.}
+        \resumeItem{Standardized test strategies and integrated them with CI/CD pipelines, ensuring consistent test coverage and early bug detection throughout the development lifecycle.}
+        \resumeItem{Developed multiple B2B and B2C enterprise-level applications for Switzerland’s largest telecom and retail companies using Angular, delivering scalable and maintainable frontend solutions.}
+        \resumeItem{Integrated GraphQL across several projects, leveraging fragments and parallel queries to optimize data fetching and cut API response times by 50\%.}
+        \resumeItem{Enhanced frontend performance by introducing lazy loading, auditing Webpack bundle sizes, and reducing initial load from 2.4MB to 1.2MB across multiple projects.}
+
+     \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: JavaScript/TypeScript, HTML5, CSS3/SCSS/SASS} \\
+     \textbf{Frontend Frameworks}{: React, Angular, React Native} \\
+     \textbf{Development Tools}{: Git, Webpack, npm/yarn, Jest, Cypress} \\
+     \textbf{Design Tools}{: Figma, Adobe XD, Sketch} \\
+     \textbf{Methodologies}{: Agile/Scrum, Design Systems, Responsive Design, Mobile-First Development} \\
+     \textbf{Soft Skills}{: Team Leadership, Cross-functional Collaboration, Technical Mentorship, Client Communication}
+    }}
+ \end{itemize}
+
+
+% \section{Activities and Interests}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{ASIA}{: Treasurer of ASIA. A club to promote equity and inclusion of Asians on campus} \\
+%      \textbf{Ultimate Frisbee}{: Member of the ultimate frisbee club} \\
+%      \textbf{Robotics}{: Treasurer of the robotics club} \\
+%     }}
+%  \end{itemize}
+
+
+%-------------------------------------------
+
+\end{document}
